@@ -33,7 +33,7 @@ Before starting, make sure you have these installed on your computer:
 | MySQL                            | Any version           |
 | Laravel                          | ≥ 11.x                |
 | Node.js (optional, for frontend) | ≥ 18.x                |
-| XAMPP                            | Any one of them       |
+| XAMPP                            | Any                   |
 
 ---
 ## 📁 Project Structure

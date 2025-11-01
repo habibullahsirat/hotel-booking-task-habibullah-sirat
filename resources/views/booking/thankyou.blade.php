@@ -9,14 +9,14 @@
 <body class="min-h-screen bg-gradient-to-br from-blue-50 to-white flex items-center justify-center">
 
     <div class="bg-white p-10 rounded-2xl shadow-xl text-center max-w-md">
-        <h2 class="text-3xl font-bold text-gray-800 mb-3">🎉 Booking Confirmed!</h2>
+        <h2 class="text-3xl font-bold text-gray-800 mb-3">Booking Confirmed!</h2>
         <p class="text-gray-600 mb-6">Thank you, {{ $booking->name }}!
         Your booking details are below.</p>
 
         <div class="text-left text-gray-700 space-y-1 mb-6">
             <p><strong>Room Category:</strong> {{ $category->name }}</p>
-            <p><strong>From:</strong> {{ $booking->from_date }}</p>
-            <p><strong>To:</strong> {{ $booking->to_date }}</p>
+            <p><strong>From:</strong> {{ \Carbon\Carbon::parse($booking->from_date)->format('F j, Y') }}</p>
+            <p><strong>To:</strong> {{ \Carbon\Carbon::parse($booking->to_date)->format('F j, Y') }}</p>
             <p><strong>Base Price:</strong> {{ $booking->base_price }} BDT</p>
             <p><strong>Final Price (After Discount/Weekend):</strong> {{ $booking->final_price }} BDT</p>
         </div>

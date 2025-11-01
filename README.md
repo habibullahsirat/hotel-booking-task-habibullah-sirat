@@ -39,7 +39,7 @@ Before starting, make sure you have these installed on your computer:
 ## 📁 Project Structure
 
 ```text
-hotel-booking-laravel/
+hotel-booking-task-habibullah-sirat/
 ├── app/
 │   ├── Http/Controllers/BookingController.php
 │   ├── Models/Booking.php
@@ -47,7 +47,7 @@ hotel-booking-laravel/
 ├── database/
 │   └── migrations/
 ├── public/
-│   └── css/style.css
+│   └── images/
 ├── resources/
 │   └── views/
 │       ├── index.blade.php

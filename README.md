@@ -1,6 +1,6 @@
 # About this project
 ## Hotel Booking System
-This Hotel Booking System is a Laravel web application designed to simulate a real hotel room reservation system. It allows users to browse different types of rooms (like Premium Deluxe, Executive Suite, and Standard Room) and book their stay online.
+This Hotel Booking System is a Laravel web application designed to simulate a real hotel room reservation system. It allows users to browse different types of rooms (like Premium Deluxe, Super Deluxe, and Standard Deluxe) and book their stay online.
 
 This project allows users to:
 - View available rooms (Premium Deluxe, Super Deluxe, Standard Deluxe)
